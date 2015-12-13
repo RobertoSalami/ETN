@@ -1,28 +1,3 @@
-REM *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-REM *How to install:
-REM * 1.Copy the complete code.
-REM * 2.Open up your notes program.
-REM * 3.Put the code in.
-REM * 4.Save the notes as WorldWar-3.bat
-REM *  !It's important to have the .bat at end!
-REM * 5.Doubleclick on It and trust the program.
-REM * 6.Have Fun :D
-REM *   Additional: Bugs or Suggestions pls in the Issue Tab on GitHub :)
-REM *     Thx for playing. Have a good Day.
-REM *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-REM * TotalWar:Nuke. A Textbased Batch Game In Pure Batch
-REM * Copyright (C) 2015  Onsive.net, {Plus others users}
-REM *
-REM * This program is free software: you can redistribute it and/or modify
-REM * it under the terms of the GNU General Public License as published by
-REM * the Free Software Foundation, either version 2.1.4 of the License, or
-REM * (at your option) any later version.
-REM *
-REM * This program is distributed in the hope that it will be useful,
-REM * but WITHOUT ANY WARRANTY; without even the implied warranty of
-REM * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-REM * GNU General Public License for more details.
-REM *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 :start
 @echo off
 cls
