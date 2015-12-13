@@ -23,15 +23,11 @@ echo.
 echo      #---------------------#
 echo      #Type '1' Singleplayer# & if '%op%'=='13' echo W - Win / E - End / S - Suggestion
 echo      #Type '2' two player  #
-echo      #Type '3' changelog   #
+echo      #Type '3' -REMOVED-   #
 echo      #---------------------#
 choice /c 123EWS /N /M "Make a selection"
 if %errorlevel%==1 goto name
 if %errorlevel%==2 goto p1name
-if %errorlevel%==3 goto changelog
-if %errorlevel%==4 goto end
-if %errorlevel%==5 goto win
-if %errorlevel%==6 goto suggesta
 :name
 cls
 set name=
@@ -1073,86 +1069,6 @@ set /p replay=Type anything to replay the game. Type 'x' to exit:
 if '%replay%'=='x' goto suggest
 if '%replay%'=='' goto p2win2
 goto players
-:changelog
-color f9
-:site_1
-cls
-echo Changelog:
-echo  V 2.3.5
-echo   -Bugs Fixed
-echo   -Chrash fixed
-echo   -Navigation Update
-echo.
-echo  V 2.3.4
-echo   -Bug Client 
-echo   -Bug at Country-Selection
-echo.
-echo  V 2.3.3
-echo   -Bugfix
-echo   -Switzerland added
-echo.
-echo  V 2.3.2 # Bigger Update!
-echo   -Japan, France and Turkey added
-echo   -Gameplay fix
-echo   -Overlay edited
-echo   -Money patch 2.0
-echo   -Bugfix
-echo.
-echo (Page 1/2)
-choice /c NE /N /M "N - Next Page / E - Exit"
-if %errorlevel%==1 goto :site_2
-if %errorlevel%==2 goto :start
-:site_2
-cls
-echo Changelog:
-echo  V 2.3.1 # Money Update
-echo   -Big money patch 1.0
-echo   -Big difficulty patch
-echo   -Scoresystem added
-echo.
-echo  V 2.2.1 # Suggestion update
-echo   -Suggestionsystem-Upgrade
-echo   -Scoresystem in work
-echo.
-echo  V 2.2.0 # Overlay update
-echo   -Big overlay change
-echo   -New Easter Egg
-echo.
-echo  V 2.1.6
-echo   -Error-Freeze fixed
-echo   -Some design changes
-echo.
-echo  V 2.1.5
-echo   -Changelog complet fixed
-echo   -Some design changes
-echo.
-echo (Page 2/3)
-choice /c NME /N /M "N - Next Page / M - Previous Page / E - Exit"
-if %errorlevel%==1 goto :site_3
-if %errorlevel%==2 goto :site_1
-if %errorlevel%==3 goto :start
-:site_3
-cls
-echo Changelog:
-echo  V 2.1.4
-echo   -Changelog bugfix
-echo.
-echo  V 2.1.3
-echo   -Changelog added
-echo.
-echo  V 2.1.2
-echo   -Overkill chrash fixed
-echo.
-echo  V 2.0.0 - V 2.1.1
-echo   -Shopsystem was added
-echo.
-echo  V 1.0
-echo   -isn't my work - pls check out Vincent Allain alias BATCHFILEMASTER
-echo.
-echo (Page 3/3)
-choice /c EM /N /M "M - Previous Page / E - Exit"
-if %errorlevel%==1 goto :start
-if %errorlevel%==2 goto :site_2
 :abcdefg
 color f9
 cls
@@ -1183,17 +1099,12 @@ echo %date:~0% - %time:~0,8% - Player %name% has %winscore% as %country% against
 echo Look in youre score.txt for the score you have/had.
 echo %date:~0% - %time:~0,8% - Player %name% has %winscore% as %country% against %enemy% in %difficulty%.>> score.txt
 :suggesta
+cls
 echo.
 echo %version% 
 echo special thanks to Vincent Allain for writing the base of the game.
 echo ___________________________________________________________________
 echo.
-echo Any suggestions bevor you leave? ('x' to leave)
-REM echo (You can write 'cl' to get to the changelog)
-echo (Write 'score' to save youre score) - In work
-echo ___________________________________________________________________
+echo Pls post Bugs & Suggestions @ https://github.com/Onsive/ETN/issues
 echo.
-set /p endmenu=
-REM if '%endmenu%'=='score' goto score
-if '%endmenu%'=='cl' goto changelog
-if '%endmenu%'=='changelog' goto changelog
+pause
