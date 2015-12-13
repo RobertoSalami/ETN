@@ -1,6 +1,4 @@
 #-------------------------------------------------------------------------------#
-|                 Enter The Nuke         (C) Onsive.net                         |
-#-------------------------------------------------------------------------------#
 |How to install:                                                                |
 | 1.Copy the complete code.                                                     |
 | 2.Open up your notes program.                                                 |
@@ -25,3 +23,62 @@
 | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                 |
 | GNU General Public License for more details.                                  |
 #-------------------------------------------------------------------------------#
+
+Changelog:
+  Version 1.0.0 | 13.12.2015
+   -Published on GitHub
+   -Ingame Changelog removed
+   -Bugs and Issues now only
+    over GitHub
+
+  Alpha 11
+   -Bugs Fixed
+   -Chrash fixed
+   -Navigation Update
+
+  Alpha 10
+   -Bug Client 
+   -Bug at Country-Selection
+
+  Alpha 9
+   -Bugfix
+   -Switzerland added
+
+  Alpha 8 # Bigger Update!
+   -Japan, France and Turkey added
+   -Gameplay fix
+   -Overlay edited
+   -Money patch 2.0
+   -Bugfix
+
+  Alpha 7 # Money Update
+   -Big money patch 1.0
+   -Big difficulty patch
+   -Scoresystem added
+
+  Alpha 6 # Suggestion update
+   -Suggestionsystem-Upgrade
+   -Scoresystem in work
+
+  Alpha 5 # Overlay update
+   -Big overlay change
+   -New Easter Egg
+
+  Alpha 4
+   -Error-Freeze fixed
+   -Some design changes
+
+  Alpha 3
+   -Changelog complet fixed
+   -Some design changes
+   -Changelog bugfix
+   
+  Alpha 2
+   -Changelog added
+   -Overkill chrash fixed
+
+  Alpha 1
+   -Shopsystem was added
+
+  Alpha 0
+   - pls check out Vincent Allain alias BATCHFILEMASTER
